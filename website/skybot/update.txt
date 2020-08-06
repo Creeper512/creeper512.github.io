@@ -1,0 +1,12 @@
+UPDATE 日志
+
+SkyBot For Mirai Version Pre 1.1.0
+2020-8-6 更新
+更新内容：无
+
+SkyBot For CoolQ Version 1.2.1[停更]
+2020-8-2 更新
+更新内容：
+[NEW]新增了 娱乐系统
+[DEL]删除了 blue sky，将使用铃心自定义作为替代品。
+[UPD]更新了主菜单样式
