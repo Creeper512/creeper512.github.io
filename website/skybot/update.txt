@@ -1,8 +1,14 @@
 UPDATE 日志
 
-[开发版本]SkyBot For Mirai Version Pre 1.2.0
-2020-8-6 更新
-更新内容：无
+[开发版本]SkyBot For Mirai Version Pre 1.1.2
+2020-8-9 更新
+更新内容：
+[NEW]新增 二次元图 -> 图片系统
+[NEW]新增 动漫壁纸 -> 图片系统
+[DEL]删除了 图片系统 -> 表情包生成
+[NEW]新增了 Dice! 插件
+[FIX]修复了一些问题
+[UPD]修改了一些指令
 
 SkyBot For CoolQ Version 1.2.1[停更]
 2020-8-2 更新
