@@ -1,0 +1,4 @@
+13.35.91.67 api.mojang.com
+13.35.90.123 account.mojang.com
+99.84.198.181 api.mojang.com
+13.226.230.104 sessionserver.mojang.com
