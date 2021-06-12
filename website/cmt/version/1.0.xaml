@@ -4,10 +4,10 @@
      如果你懂得 WPF 的布局文件编写，你甚至可以做出不少的新玩意儿…… -->
 <local:MyCard Title="提示" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
-        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+		<local:MyHint Margin="0,8,0,2" IsWarn="False"
            Text="你当前使用的是最新版本的CModTool。" />
-        <local:MyHint Margin="0,8,0,2" IsWarn="False"
-           Text="建议加入官方QQ群966077526来获取更新和通知。" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="建议加入官方QQ群966077526来获取更新和通知。" />
     </StackPanel>
 </local:MyCard>
 
