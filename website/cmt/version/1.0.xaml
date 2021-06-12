@@ -2,11 +2,14 @@
 <!-- 这是 PCL2 的主页自定义文件。你可以通过修改这个文件来自定义 PCL2 主页：添加文本、打开网页、启动游戏，等等。
      如果你倒腾这个文件把 PCL2 玩炸了，把这个文件直接删除就行了。
      如果你懂得 WPF 的布局文件编写，你甚至可以做出不少的新玩意儿…… -->
-
-<local:MyHint Margin="0,8,0,2" IsWarn="True"
-           Text="目前CModTool Launcher处于测试阶段，因此可能会出现一些问题。" />
-<local:MyHint Margin="0,8,0,2" IsWarn="False"
-           Text="你当前使用的是最新版本的CModTool。" />
+<local:MyCard Title="提示" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+           Text="你当前使用的是最新版本的CModTool。" /> />
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"
+           Text="建议加入官方QQ群966077526来获取更新和通知。" /> />
+    </StackPanel>
+</local:MyCard>
 
 <local:MyCard Title="了解 CModTool" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
@@ -27,14 +30,18 @@
       
         <!-- 这是第一行 -->
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Red"
-                   Text="获取新版本" EventType="打开网页" EventData="https://cr512.github.io/" ToolTip="测试版本暂时无法使用" />
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="进入 Hypixel" EventType="启动游戏" EventData="CModTool|mc.hypixel.net" />
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="加入MC交流群" EventType="打开网页" EventData="http://qq.cn.hn/EsY" />
         </StackPanel>
-      
+
+<local:MyCard Title="关于 CModTool 和 Launcher" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="CModTool版本：2.1（20210612）&#xA;CModTool Launcher版本：1.0（20210612-2）" />
+    </StackPanel>
+</local:MyCard>         
     </StackPanel>
 </local:MyCard>
 
