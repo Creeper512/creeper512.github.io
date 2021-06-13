@@ -11,17 +11,17 @@
 
 <local:MyCard Title="CModTool 2.2 中的新内容" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
-        <TextBlock Margin="0,0,0,4" FontSize="14" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}"
+        <TextBlock Margin="0,0,0,4" FontSize="14" HorizontalAlignment="Center" Foreground="	#1E90FF"
                    Text="1.JEI物品管理器" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,6"
                    Text="在新版本中，CModTool加入了JEI物品管理器。JEI物品管理器可以显示各个物品和合成方式，可以有效解救那些不会合成的人。" />
         <Image Height="50" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/album/b65653c1424ab43580d7dad944e466591c2f76a0.png" />
-        <TextBlock Margin="0,0,0,4" FontSize="14" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}"
+        <TextBlock Margin="0,0,0,4" FontSize="13" HorizontalAlignment="Center" Foreground="	#1E90FF"
                    Text="2.录像回放" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,6"
                    Text="Replay被加入到CModTool中了！使用这个Mod，你可以录制、重放和分享你的游戏体验，它既可以录制单人游戏，也可以录制多人游戏。" />
         <Image Height="50" HorizontalAlignment="Center" Source="https://i0.hdslb.com/bfs/album/66c64c78828019249b02fd41f644d2885a2a98c3.png" />
-        <TextBlock Margin="0,0,0,4" FontSize="14" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}"
+        <TextBlock Margin="0,0,0,4" FontSize="13" HorizontalAlignment="Center" Foreground="	#1E90FF"
                    Text="3.Mod更新与Bug修复、小更新" />
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,6"
                    Text="[更新] 更新TimeChanger至 2.2.1&#xA;[更新] 更新Quickplay至 2.0.5&#xA;[更新] 更新Quickplay Premium至1.0.4&#xA;[小更新] 修改了一些Mod的快捷键" />      
