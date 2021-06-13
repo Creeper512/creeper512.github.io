@@ -1,0 +1,48 @@
+<local:MyCard Title="提示" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"           
+    		   Text="你目前使用的CModTool是最新版本。" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="加入官方群" EventType="打开网页" EventData="http://qq.cn.hn/EsY" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="CModTool 2.2 中的新内容" Margin="0,0,0,15" CanSwap="True" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4" FontSize="14" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}"
+                   Text="1.JEI物品管理器" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,6"
+                   Text="在新版本中，CModTool加入了JEI物品管理器。JEI物品管理器可以显示各个物品和合成方式，可以有效解救那些不会合成的人。" />
+        <TextBlock Margin="0,0,0,4" FontSize="14" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}"
+                   Text="2.录像回放" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,6"
+                   Text="Replay被加入到CModTool中了！使用这个Mod，你可以录制、重放和分享你的游戏体验，它既可以录制单人游戏，也可以录制多人游戏。" />
+        <TextBlock Margin="0,0,0,4" FontSize="14" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}"
+                   Text="3.Mod更新与Bug修复、小更新" />
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,6"
+                   Text="[更新] 更新TimeChanger至 2.2.1&#xA;[更新] 更新Quickplay至 2.0.5&#xA;[更新] 更新Quickplay Premium至1.0.4&#xA;[小更新] 修改了一些Mod的快捷键" />      
+   </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="了解 CModTool" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,6"
+                   Text="CModTool是一个由Creeper233制作的一个辅助整合包，包含60多个实用Mod。使用CModTool，你可以更好的游玩小游戏服务器（Hypixel、Mineplex...），还可以提高你的游戏帧数（建议安装OpenJ9的Java，安装后可以大幅提高游戏帧数）（09年的电脑在超平坦可以100+FPS）" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="常见问题解答" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="问：哇这个启动器好NB，这是怎么做的？&#xA;答：这个启动器不是我做的哦，这是PCL2启动器的个性化功能" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="关于 CModTool 和 Launcher" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="CModTool版本：2.2（20210613）&#xA;CModTool Launcher版本：1.0（20210612-2）" />
+    </StackPanel>        
+</local:MyCard>    
