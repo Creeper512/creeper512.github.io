@@ -9,7 +9,7 @@
     </StackPanel>
 </local:MyCard>
 
-<local:MyCard Title="CModTool 2.2 中的新内容" Margin="0,0,0,15" CanSwap="True" CanSwap="True" IsSwaped="True">
+<local:MyCard Title="CModTool 2.2 中的新内容" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
     <StackPanel Margin="25,40,23,15">
         <TextBlock Margin="0,0,0,4" FontSize="14" HorizontalAlignment="Center" Foreground="{DynamicResource ColorBrush1}"
                    Text="1.JEI物品管理器" />
