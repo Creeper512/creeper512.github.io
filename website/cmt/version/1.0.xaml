@@ -1,7 +1,7 @@
 <local:MyCard Title="提示" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
 		<local:MyHint Margin="0,8,0,2" IsWarn="Ture"
-           Text="你目前使用的CModTool是旧版本，请在官方QQ群966077526下载新版本。&#xA;新版本包含更多的特性以及Bug修复，并且旧版本不会受到支持（你在旧版本遇到的问题不会被解答），因此建议你立即更新。" />
+           		Text="你目前使用的CModTool是旧版本，请在官方QQ群966077526下载新版本。&#xA;新版本包含更多的特性以及Bug修复，并且旧版本不会受到支持（你在旧版本遇到的问题不会被解答），因此建议你立即更新。" />
         <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
                    Text="加入MC交流群" EventType="打开网页" EventData="http://qq.cn.hn/EsY" />
     </StackPanel>
