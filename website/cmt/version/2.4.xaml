@@ -1,0 +1,41 @@
+<local:MyCard Title="提示" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"           
+    		   Text="你目前使用的CModTool是最新版本。" />
+        <local:MyHint Margin="0,8,0,2" IsWarn="False"           
+    		   Text="觉得CModTool很好用？那就将它推荐给你的好友吧（当然你也可以在B站发视频来推荐），他（她）一定会很喜欢使用CModTool的！" />
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="加入官方群" EventType="打开网页" EventData="http://qq.cn.hn/EsY" />
+        </StackPanel>
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="CModTool 2.4 中的新内容" Margin="0,0,0,15" CanSwap="True" IsSwaped="True">
+    <StackPanel Margin="25,40,23,15">
+	    <Image Height="500" HorizontalAlignment="Center" Source="https://z3.ax1x.com/2021/06/19/RCzgP0.png" />
+        <TextBlock Margin="0,0,0,4" FontSize="13" HorizontalAlignment="Left" Foreground="#1E90FF"
+                   Text="看更新日志" />  
+   </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="了解 CModTool" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,6"
+                   Text="CModTool是一个由Creeper233制作的一个辅助整合包，包含60多个实用Mod。使用CModTool，你可以更好的游玩小游戏服务器（Hypixel、Mineplex...），还可以提高你的游戏帧数（09年的电脑在超平坦可以100+FPS）" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="常见问题解答" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="问：哇这个启动器好NB，这是怎么做的？&#xA;答：这个启动器不是我做的哦，这是PCL2启动器的个性化功能&#xA;问：这些Mod是你做的吗？&#xA;答：不是，这些Mod都是我从B站、MC百科上收集到的。我对编写Mod连个Hello World都不会&#xA;问：为啥我开启了背景模糊，还是没效果啊？&#xA;答：请在设置>视频设置>性能>关闭快速渲染" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="关于 CModTool 和 Launcher" Margin="0,0,0,15">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
+                   Text="CModTool版本：2.4（20210713）&#xA;CModTool Launcher版本：1.0（20210612-2）" />
+    </StackPanel>        
+</local:MyCard>    
