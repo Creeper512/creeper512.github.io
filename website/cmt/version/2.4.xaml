@@ -7,6 +7,8 @@
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
                    Text="加入官方群" EventType="打开网页" EventData="http://qq.cn.hn/EsY" />
+            <local:MyButton Margin="0,0,10,0" Width="180" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
+                   Text="来自Lovely_Turtles的介绍视频" EventType="打开网页" EventData="https://www.bilibili.com/video/BV13b4y1o7aX" />
         </StackPanel>
     </StackPanel>
 </local:MyCard>
