@@ -2,8 +2,8 @@
     <StackPanel Margin="25,40,23,15">
         <local:MyHint Margin="0,8,0,2" IsWarn="False"           
     		   Text="你目前使用的CModTool是最新版本。" />
-        <local:MyHint Margin="0,8,0,2" IsWarn="False"           
-    		   Text="觉得CModTool很好用？那就将它推荐给你的好友吧（当然你也可以在B站发视频来推荐），他（她）一定会很喜欢使用CModTool的！" />
+        <local:MyHint Margin="0,8,0,2" IsWarn="True"           
+    		   Text="如果你遇到游戏中突然崩溃、游戏昵称是Creeper233_的问题，请删除mods文件夹下的 NameModifier-1.4-SNAPSHOT.jar 和 Motion Blur-2.0 (1.8.9).jar，这两个Mod将在下一个版本中删除！"/>
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <local:MyButton Margin="0,0,10,0" Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0" ColorType="Highlight"
                    Text="加入官方群" EventType="打开网页" EventData="http://qq.cn.hn/EsY" />
@@ -17,7 +17,7 @@
 <local:MyCard Title="了解 CModTool" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,6"
-                   Text="CModTool是一个由Creeper233制作的一个辅助整合包，包含60多个实用Mod。使用CModTool，你可以更好的游玩小游戏服务器（Hypixel、Mineplex...），还可以提高你的游戏帧数（09年的电脑在超平坦可以100+FPS）" />
+                   Text="CModTool（简称CMT）是一个由Creeper233制作的一个辅助整合包，包含60多个实用Mod。使用CModTool，你可以更好的游玩小游戏服务器（Hypixel、Mineplex...），还可以提高你的游戏帧数（09年的电脑在超平坦可以100+FPS）&#xA;提示：你可以在https://hub.fastgit.org/Creeper512/creeper512.github.io/edit/master/website/cmt/version/ 找到该提示文件的代码 :)" />
     </StackPanel>
 </local:MyCard>
 
