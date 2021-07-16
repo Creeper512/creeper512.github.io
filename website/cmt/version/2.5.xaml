@@ -17,7 +17,7 @@
 <local:MyCard Title="了解 CModTool" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,6"
-                   Text="CModTool（简称CMT）是一个由Creeper233制作的一个辅助整合包，包含60多个实用Mod。使用CModTool，你可以更好的游玩小游戏服务器（Hypixel、Mineplex...），还可以提高你的游戏帧数（09年的电脑在超平坦可以100+FPS）&#xA;提示：你可以在https://hub.fastgit.org/Creeper512/creeper512.github.io/edit/master/website/cmt/version/ 找到该提示文件的代码 :)" />
+                   Text="CModTool（简称CMT）是一个由Creeper233制作的一个辅助整合包，包含60多个实用Mod。使用CModTool，你可以更好的游玩小游戏服务器（Hypixel、Mineplex...），还可以提高你的游戏帧数（09年的电脑在超平坦可以100+FPS）&#xA;提示：你可以在 http://dwz.win/aqM3 找到该提示文件的代码 :)" />
     </StackPanel>
 </local:MyCard>
 
@@ -31,6 +31,6 @@
 <local:MyCard Title="关于 CModTool 和 Launcher" Margin="0,0,0,15">
     <StackPanel Margin="25,40,23,15">
         <TextBlock TextWrapping="Wrap" Margin="0,0,0,4"
-                   Text="CModTool版本：2.5（20210714）&#xA;CModTool Launcher版本：1.0（20210612-2）&#xA;该页面最后更新于：2021/7/16 19:34" />
+                   Text="CModTool版本：2.5（20210714）&#xA;CModTool Launcher版本：1.0（20210612-2）&#xA;该页面最后更新于：2021/7/16 19:38" />
     </StackPanel>        
 </local:MyCard>    
